@@ -8,6 +8,8 @@ Before running the application, make sure you have the following installed:
 
 .NET Core SDK (version 3.1 or later)
 
+Visual Studio to run application.
+
 COMPILATION:
 
 To compile the application, follow these steps:
