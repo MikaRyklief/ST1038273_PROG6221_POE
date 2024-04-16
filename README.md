@@ -1,4 +1,4 @@
-# ST1038273_PROG6221_POE_Recipe_Management_Application
+# ST1038273_POE_Recipe_Management_Application
 This is my PROG6221 POE, It is a recipe application to help people to cook/bake new food.
 It is a command-line application written in C# for managing recipes. It allows users to enter the details of a recipe, including ingredients and steps, and perform operations such as scaling quantities and resetting values.
 
