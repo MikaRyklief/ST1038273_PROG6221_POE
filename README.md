@@ -2,37 +2,42 @@
 This is my PROG6221 POE, It is a recipe application to help people to cook/bake new food.
 It is a command-line application written in C# for managing recipes. It allows users to enter the details of a recipe, including ingredients and steps, and perform operations such as scaling quantities and resetting values.
 
-INSTRUCTIONS:
+COMPILING AND RUNNING THE PROJECT
 
-Before running the application, make sure you have the following installed:
+Open Visual Studio: Launch Visual Studio from the Start menu or by double-clicking its shortcut icon on the desktop.
 
-.NET Core SDK (version 3.1 or later)
+Open the Project Solution:
 
-Visual Studio to run application.
+If you already have the project solution opened, skip to the next step.
+If not, navigate to File -> Open -> Project/Solution..., then browse to the folder containing your project files and select the solution file (.sln) to open.
 
-COMPILATION:
+Build the Solution:
 
-To compile the application, follow these steps:
+In Visual Studio's menu, go to Build -> Build Solution to compile the project.
+Alternatively, you can press Ctrl + Shift + B as a shortcut.
 
-Open a terminal or command prompt.
+Set Startup Project (if needed):
 
-Navigate to the root directory of the application.
+If your solution contains multiple projects, set the startup project by right-clicking on the desired project in Solution Explorer and selecting Set as StartUp Project.
 
-Run the following command to compile the source code:
+Run the Program:
 
-dotnet build
+Press F5 or go to Debug -> Start Debugging to run the program in debug mode.
+Press Ctrl + F5 or go to Debug -> Start Without Debugging to run the program without debugging.
 
-RUNNING THE APPLICATION:
+View Output:
 
-To run the application, follow these steps:
+The output of your program will be displayed in the Output window or in a console window, depending on the type of application you've created.
 
-After compiling the application, navigate to the output directory.
+DEBUGGING (OPTIONAL)
 
-Run the following command to execute the compiled application:
+If you encounter any errors or unexpected behavior while running your program, you can use Visual Studio's debugging features to diagnose and fix issues:
 
-dotnet run
+Set breakpoints by clicking in the margin next to the line of code where you want to pause execution.
+Step through code using the Debug toolbar or keyboard shortcuts (F10 for step over, F11 for step into).
+Inspect variable values and call stack in the Locals and Watch windows.
+Use the Error List window to view build errors and warnings.
 
-The application will display a menu with options to interact with the recipe management system. Follow the on-screen prompts to add ingredients, steps, display the recipe, scale quantities, reset values, clear the recipe, or exit the application.
 
 CONTRIBUTING:
 
