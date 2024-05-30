@@ -38,6 +38,9 @@ Step through code using the Debug toolbar or keyboard shortcuts (F10 for step ov
 Inspect variable values and call stack in the Locals and Watch windows.
 Use the Error List window to view build errors and warnings.
 
+BRIEF DESCRIPTION OF WHAT I CHANGED:
+
+I added all the functionalities that part2 has asked us to do such as adding unlimited recipes, naming recipes and more. Improvements I have made based on feedback are Improving error handling, I unfortunately was not able to change the colour of text and use advance error handling features. The scaling factor has drastically improved and now scales everything including the newly added feature (calories). I was unsuccessful when attempting to prompt the user to confirming to clear the data before the data was cleared but will try to sort this out in the following updates. I have increased readability of the entire project by including breaks and coments as well as a END OF FILE line at the very end of each class. I have split all the classes but have not split methods into different classes as I think this will create a messy project and it has a good structure that works. 
 
 CONTRIBUTING:
 
